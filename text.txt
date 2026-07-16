@@ -14,3 +14,4 @@
 14 - AlMusawwir
 15 - AlGhaffaar
 16 - AlQahhaar
+17 - AlWahhab
