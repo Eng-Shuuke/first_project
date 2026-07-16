@@ -12,3 +12,4 @@
 12 - AlKhaaliq
 13 - Al-Baari
 14 - AlMusawwir
+15 - AlGhaffaar
