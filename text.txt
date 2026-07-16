@@ -16,3 +16,5 @@
 16 - AlQahhaar
 17 - AlWahhab
 18 - ArRazzaq
+19 - Al-Fattah
+20 - Al-Alim
