@@ -10,3 +10,4 @@
 10 - Al-Jabbar
 11 - AlMutakabbir
 12 - AlKhaaliq
+13 - Al-Baari
