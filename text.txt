@@ -9,3 +9,4 @@
 9 - Al-'Aziz
 10 - Al-Jabbar
 11 - AlMutakabbir
+12 - AlKhaaliq
