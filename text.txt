@@ -67,3 +67,4 @@
 67 - Al-Wahid
 68 - Al-Ahad
 69 - Al-Samad
+70 - Al-Qaadir
