@@ -91,3 +91,4 @@
 91 - Al-Mani'
 92 - Ad-Darr
 93 - An-Nafi'
+94 - An-Nur
