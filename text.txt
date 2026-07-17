@@ -75,3 +75,4 @@
 75 - Al-Akhir
 76 - AdhDhahir
 77 - Al-Batin
+78 - Al-Wali
