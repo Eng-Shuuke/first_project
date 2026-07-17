@@ -72,3 +72,4 @@
 72 - AlMuqaddim
 73 - AlMu'akhkhir
 74 - Al-Awwal
+75 - Al-Akhir
