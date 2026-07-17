@@ -63,3 +63,4 @@
 63 - Al-Hayy
 64 - AlQayyuum
 65 - Al-Wajid
+66 - Al-Majid
