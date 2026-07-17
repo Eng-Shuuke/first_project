@@ -66,3 +66,4 @@
 66 - Al-Majid
 67 - Al-Wahid
 68 - Al-Ahad
+69 - Al-Samad
