@@ -64,3 +64,4 @@
 64 - AlQayyuum
 65 - Al-Wajid
 66 - Al-Majid
+67 - Al-Wahid
