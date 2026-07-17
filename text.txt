@@ -56,3 +56,4 @@
 56 - Al-Wali
 57 - Al-Hamid
 58 - Al-Muhsi
+59 - Al-Mubdi' 
