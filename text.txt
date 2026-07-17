@@ -26,3 +26,4 @@
 26 - Al-Mudhill
 27 - As-Sami
 28 - Al-Basir
+29 - Al-Hakam
