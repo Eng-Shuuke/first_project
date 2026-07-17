@@ -61,3 +61,4 @@
 61 - Al-Muhyi
 62 - Al-Mumit 
 63 - Al-Hayy
+64 - AlQayyuum
