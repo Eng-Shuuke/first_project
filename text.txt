@@ -79,3 +79,4 @@
 79 - AlMuta'ali
 80 - Al-Barr
 81 - AtTawwab
+82 - AlMuntaqim
