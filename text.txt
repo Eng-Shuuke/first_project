@@ -51,3 +51,4 @@
 51 - AshShahid
 52 - Al-Haqq
 53 - Al-Wakil
+54 - Al-Qawi
