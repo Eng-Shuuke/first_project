@@ -29,3 +29,4 @@
 29 - Al-Hakam
 30 - Al-'Adl
 31 - Al-Latif
+32 - Al-Khabir
