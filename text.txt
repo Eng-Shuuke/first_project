@@ -30,3 +30,4 @@
 30 - Al-'Adl
 31 - Al-Latif
 32 - Al-Khabir
+33 - Al-Halim
