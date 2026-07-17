@@ -80,3 +80,4 @@
 80 - Al-Barr
 81 - AtTawwab
 82 - AlMuntaqim
+83 - Al-'Afuw
