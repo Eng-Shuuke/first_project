@@ -82,3 +82,4 @@
 82 - AlMuntaqim
 83 - Al-'Afuw
 84 - Ar-Ra'uf
+85 - Malik-ulMulk
