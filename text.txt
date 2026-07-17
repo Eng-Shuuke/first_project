@@ -65,3 +65,4 @@
 65 - Al-Wajid
 66 - Al-Majid
 67 - Al-Wahid
+68 - Al-Ahad
