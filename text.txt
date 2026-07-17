@@ -94,3 +94,4 @@
 94 - An-Nur
 95 - Al-Hadi
 96 - Al-Badi' 
+97 - Al-Baqi
