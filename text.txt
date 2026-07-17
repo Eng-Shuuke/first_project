@@ -43,3 +43,4 @@
 43 - Al-Karim
 44 - Ar-Raqib
 45 - Al-Mujib
+46 - Al-Waasi'
