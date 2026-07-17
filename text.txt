@@ -69,3 +69,4 @@
 69 - Al-Samad
 70 - Al-Qaadir
 71 - AlMuqtadir
+72 - AlMuqaddim
