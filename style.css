@@ -1,11 +1,23 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: o;
+  margin: 0;
 }
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
   background-color: aliceblue;
+}
+header {
+  background-color: darkblue;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+header img {
+  width: 60px;
+  height: 60px;
 }
