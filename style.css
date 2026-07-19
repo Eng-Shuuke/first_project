@@ -1,4 +1,7 @@
-/* Sifaynta Guud (Reset) */
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,37 +9,25 @@
   font-family: sans-serif;
 }
 
-/* Kunteenarka dhexda ku haynaya content-ka guud */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  width: 100%;
 }
 
-/* --- HEADER CSS --- */
 .full-header {
-  background-color: #000080; /* Midabka buluugta madow ah */
+  background-color: #000080;
   padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .header-flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.logo-img {
-  height: 40px; /* Cabirka logo-ga */
-}
-
-.search-bar input {
-  padding: 8px 15px;
-  border-radius: 20px;
-  border: none;
-  width: 250px;
-  outline: none;
-  letter-spacing: 1px;
 }
 
 .nav-links a {
@@ -46,129 +37,51 @@
   font-weight: bold;
 }
 
-/* --- HERO SECTION CSS --- */
 .hero-section {
-  background-color: #005a5b; /* Midabka cagaarka madow ah ee gees-ka-geeska ah */
-  padding: 60px 0;
+  background-color: #005a5b;
+  padding: 120px 0 60px 0;
   color: white;
+  min-height: 80vh;
 }
 
 .hero-flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px; /* Kala fogaanshaha labada dhinac */
+  gap: 40px;
 }
 
-/* Qaybta Qoraalka (Bidix) */
 .hero-content {
-  flex: 1; /* Waxay qaadanaysaa bar ka mid ah booska */
+  flex: 1;
 }
-
-.hero-text {
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 15px;
-  color: #e0e0e0;
-}
-
 .hero-title {
   font-size: 40px;
-  margin-bottom: 25px;
 }
 
-.hero-buttons .btn {
-  padding: 10px 25px;
-  margin-right: 10px;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-  border-radius: 4px;
-}
-
-.btn-primary {
-  background-color: yellow;
-  color: black;
-}
-.btn-secondary {
-  background-color: transparent;
-  border: 2px solid white !important;
-  color: white;
-}
-
-/* Qaybta Sawirka (Midig) */
-.hero-image-box {
-  flex: 1; /* Waxay qaadanaysaa barta kale ee booska */
-  display: flex;
-  justify-content: center;
-}
-
-/* Sanduuqa X-ta leh ee sawirka u taagan */
 .placeholder-image {
   width: 100%;
   max-width: 450px;
-  height: 350px;
+  height: 300px;
   border: 4px solid yellow;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #004445;
-  position: relative;
 }
 
-/* Naqshada X-ta dhexda ku jirta */
-.placeholder-image::before,
-.placeholder-image::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  background-color: yellow;
-}
-.placeholder-image::before {
-  transform: rotate(35deg);
-}
-.placeholder-image::after {
-  transform: rotate(-35deg);
+.page-section {
+  padding: 100px 0;
+  min-height: 70vh;
 }
 
-.x-mark {
-  font-size: 50px;
-  color: yellow;
-  z-index: 1;
-  display: none; /* Khadadka ayaa ku filan X-ta */
+.page-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
-/* Marka shaashadu yarato (Mobile) inay isku soo dhacaan */
-@media (max-width: 768px) {
-  .header-flex,
-  .hero-flex {
-    flex-direction: column;
-    text-align: center;
-  }
-  .nav-links {
-    margin-top: 15px;
-  }
-  .search-bar {
-    margin: 15px 0;
-  }
-  .hero-buttons {
-    margin-bottom: 30px;
-  }
+.section-light {
+  background-color: #f9f9f9;
+  color: #333;
 }
 
-.servece-section {
-  background-color: #6a73f7; /* Midabka cagaarka madow ah ee gees-ka-geeska ah */
-  padding: 60px 0;
-  color: white;
-}
-.servece-section .container .img-box-1 {
-  width: auto;
-  height: 240px;
-  background-color: red;
-}
-.servece-section .container img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+.section-dark {
+  background-color: #f0f4f8;
+  color: #333;
 }

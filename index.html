@@ -3,65 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mareegtaada</title>
+    <title>One Page Website</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- 1. Header-ka Sare (Gees-ka-Gees) -->
+    <!-- 1. Header & Navigation -->
     <header class="full-header">
       <div class="container header-flex">
         <div class="logo">
-          <img src="logo.png" alt="Logo" class="logo-img" />
-          <!-- Ama qoraal UNR ah -->
+          <h2 style="color: white">UNR</h2>
         </div>
 
-        <div class="search-bar">
-          <input type="text" placeholder="Search Here..." />
-        </div>
-
+        <!-- Halkan href-yada waxaan ku darnay # iyo magaca qaybta -->
         <nav class="nav-links">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact us</a>
-          <a href="#">Portfolio</a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact us</a>
         </nav>
       </div>
     </header>
 
-    <!-- 2. Hero Section (Midabka cagaarka ah ee gees-ka-geeska ah) -->
-    <section class="hero-section">
+    <!-- 2. Qaybta Home / Hero Section -->
+    <section id="home" class="hero-section">
       <div class="container hero-flex">
-        <!-- Qaybta Bidix (Qoraalka iyo Badhamada) -->
         <div class="hero-content">
           <p class="hero-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
-            ipsa soluta, quam debitis rerum doloribus reprehenderit possimus
-            delectus illum excepturi magnam omnis?
+            ipsa soluta...
           </p>
           <h1 class="hero-title">Nuur</h1>
-          <div class="hero-buttons">
-            <button class="btn btn-primary">Badhan 1</button>
-            <button class="btn btn-secondary">Badhan 2</button>
-          </div>
         </div>
-
-        <!-- Qaybta Midig (Sawirka X-ta leh) -->
         <div class="hero-image-box">
-          <!-- Halkan sawirkaaga soo geli, hadda waa sanduuq banaan oo X leh -->
-          <div class="placeholder-image">
-            <span class="x-mark">✕</span>
-          </div>
+          <div class="placeholder-image"></div>
         </div>
       </div>
     </section>
 
-    <!-- serveces -->
-    <div class="servece-section">
-      <div class="container header-flex">
-        <div class="img-box-1"><img src="img_1.jpg" alt="" /></div>
-        <div class="img-box-1"><img src="img_2.png" alt="" /></div>
-        <div class="img-box-1"><img src="img_1.jpg" alt="" /></div>
+    <!-- 3. Qaybta About (Ku daray id="about") -->
+    <section id="about" class="page-section section-light">
+      <div class="container">
+        <h2>Nagu Saabsan (About Us)</h2>
+        <p>
+          Halkan waa qaybta faahfaahinta ku saabsan shaqadaada ama shirkadaada.
+          Marka menu-ka "About" la gujiyo, halkan ayaa si toos ah loo imaanayaa.
+        </p>
       </div>
-    </div>
+    </section>
+
+    <!-- 4. Qaybta Portfolio (Ku daray id="portfolio") -->
+    <section id="portfolio" class="page-section section-dark">
+      <div class="container">
+        <h2>Mashaariicda (Portfolio)</h2>
+        <p>
+          Halkan waxaad ku soo bandhigi kartaa sawirada iyo shaqooyinkii aad soo
+          qabatay ee hore.
+        </p>
+      </div>
+    </section>
+
+    <!-- 5. Qaybta Contact (Ku daray id="contact") -->
+    <section id="contact" class="page-section section-light">
+      <div class="container">
+        <h2>Nala Soo Xiriir (Contact Us)</h2>
+        <p>
+          Halkan foomka xiriirka ama telefoonka iyo iimeelka ayaa la dhigaa.
+        </p>
+      </div>
+    </section>
   </body>
 </html>
